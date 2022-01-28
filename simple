@@ -1,0 +1,7 @@
+for cron job db backup
+
+/usr/bin/mysqldump -u dbusername -p'dbpassword' dbname > /backup_path/backup.sql
+
+
+
+/usr/bin/mysqldump -u ictlsqua_salary -p'admin@123' ictlsqua_hnssalary > /home1/ictlsqua/public_html/hnsmatrix/database/db_`date +\%Y\%m\%d\%H\%M`.sql
